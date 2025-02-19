@@ -7,8 +7,8 @@
 }
 .row_posters{
 display: flex;
-overflow: hidden;
-overflow-x: scroll;
+overflow-y:scroll; 
+overflow-x: hidden;
 padding: 20px;
 
 }

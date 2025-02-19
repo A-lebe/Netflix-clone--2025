@@ -61,7 +61,7 @@ function Row({ title, fetchurl, islargerow }) {
           />
         ))}
       </div>
-      <div>{trailerurl && <YouTube videoId={trailerurl} opts={opts} />}</div>
+      <div style={{padding:"40px"}}>{trailerurl && <YouTube videoId={trailerurl} opts={opts} />}</div>
     </div>
   )
  }
