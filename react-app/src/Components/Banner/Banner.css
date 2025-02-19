@@ -2,7 +2,6 @@
     margin-top: 10vh;
     height: 80vh;
     margin-bottom: 80px;
-    color: white;
     object-fit: contain;
 }
 .banner_contents{
@@ -37,13 +36,19 @@
     background-color: rgba(51, 51, 51, 0.5);
 }
 
-.banner_button{
-    color: #000;
-    background-color: #fff;
+.banner_buttonList{
+    color: #000000;
+    background-color: #3d3939;
+    margin: 16px 32px 0px 0px;
+    padding: 16px 48px;
+    font:16px;
 }
 .banner_buttonplay {
-    color: #000;
-    background-color: #fff;
+    color: #000000;
+    font:16 Arial,sans-serif;
+    background-color: #ffffff;
+    margin: 16px 32px 0px 0px;
+    padding: 16px 48px;
 }
 .banner_button :hover{
     color: #000;

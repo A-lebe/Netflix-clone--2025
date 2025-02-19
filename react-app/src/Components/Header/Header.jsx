@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../assets/image/Logo.jpg";
+// import those icons from mui after we install material icons from package json
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
