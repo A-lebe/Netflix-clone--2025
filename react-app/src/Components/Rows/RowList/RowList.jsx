@@ -12,25 +12,25 @@ function RowList() {
       />
      <Row
         title="Trending now" fetchurl={Requests.fetchTrending}
-      islargerow ={true}/>
+    />
        <Row
         title="ComedyMovies" fetchurl={Requests.fetchComedyMovies}
-      islargerow ={true}/>
+      />
        <Row
         title="DocumentaryMovies" fetchurl={Requests.fetchDocumentariesMovies}
-      islargerow ={true}/>
+      />
        <Row
         title="HorrorMovies" fetchurl={Requests.fetchHorrorMovies}
-      islargerow ={true}/>
+      />
        <Row
         title="RomanceMovies" fetchurl={Requests.fetchRomanceMovies}
-      islargerow ={true}/>
+      />
       <Row
         title="TopRatedMovies" fetchurl={Requests.fetchTopRatedMovies}
-      islargerow ={true}/>
+      />
       <Row
         title="TvShow" fetchurl={Requests.fetchTvShow}
-      islargerow ={true}/>
+    />
       
     </div>
   )

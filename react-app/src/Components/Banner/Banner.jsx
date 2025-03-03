@@ -25,7 +25,7 @@ function Banner() {
       }
     })();
   }, []);
-
+//It refers to a process or operation that shortens or cuts off a piece of data, such as a string or a file, by removing characters, digits, or bytes from the end.
   function truncate(string, n) {
     return string?.length > n ? string.substr(0, n - 1) + '...' : string;
   }
